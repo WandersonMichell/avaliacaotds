@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Site Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem-vindo ao Nosso Site Pessoal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="sobre">
+                <h2>Sobre Nós</h2>
+                <p>Somos estudantes de tecnologia e desenvolvimento web. Atualmente, estamos cursando o curso Técnico em Desenvolvimento de Sistemas no Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI).<br> Nosso objetivo é aplicar o conhecimento adquirido em sala de aula em projetos práticos e desafiadores.</p>
+            </section>
+
+            <section id="portfolio">
+                <h2>Projetos</h2>
+
+                <div class="projeto">
+                    <h3>Francisco Kaio</h3>
+                    <ul>
+                        <li><a href="Portfolio%20Kaio/index.html" target="_blank">Portfólio</a></li>
+                    </ul>
+                    <p>Formulário academia.</p>
+                    <a href="https://formulariotds.netlify.app" target="_blank">
+                        <img src="Portfolio%20Kaio/img/academia.jpeg" alt="Projeto 1">
+                    </a>
+                </div>
+                
+
+                <div class="projeto">
+                    <h3>Wanderson Michel</h3>
+                    <ul>
+                        <li><a href="Portifolio%20Wanderson/index.html" target="_blank">Portfólio</a></li>
+                    </ul>
+                    <p>Álbum de músicas.</p>
+                    <a href="https://musica-gallery.netlify.app" target="_blank">
+                        <img src="Portifolio%20Wanderson/img/projeto_1.jpeg" alt="Projeto 2">
+                    </a>
+                </div>
+                
+
+                <div class="projeto">
+                    <h3>Igor Jean</h3>
+                    <ul>
+                        <li><a href="Portifolio%20Igor/index.html" target="_blank">Portfólio</a></li>
+                    </ul>
+                    <p>Relógio Digital.</p>
+                    <a href="https://digitalrelodio.netlify.app" target="_blank">
+                        <img src="Portifolio%20Igor/img/relogio.jpeg" alt="Projeto 3">
+                    </a>
+                </div>
+            </section>
+
+            <section id="contato">
+                <h2>Contato</h2>
+                <form action="mailto:example@example.com" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+
+                <h2>Buscar Vídeos no YouTube</h2>
+                <form action="https://www.youtube.com/results" method="get">
+                    <label for="search">Buscar:</label>
+                    <input type="text" id="search" name="search_query">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Equipe TDS</p>
+        </footer>
+    </div>
+</body>
+</html>
